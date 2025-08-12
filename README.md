@@ -1,4 +1,4 @@
-# 🎵 Spotify Weekly Releases
+# 🎵 My Music Discovery Tool
 
 A personal tool that automatically creates weekly playlists featuring new releases from your followed Spotify artists and similar artists you might enjoy.
 
@@ -15,8 +15,8 @@ A personal tool that automatically creates weekly playlists featuring new releas
 ### 1. Spotify Developer Account
 1. Visit [developer.spotify.com](https://developer.spotify.com)
 2. Create a new app with these settings:
-   - **Website**: `https://yourusername.github.io/spotify-weekly-releases`
-   - **Redirect URI**: `https://yourusername.github.io/spotify-weekly-releases/callback.html`
+   - **Website**: `https://greycardinal3000.github.io/my-music-discovery-tool`
+   - **Redirect URI**: `https://greycardinal3000.github.io/my-music-discovery-tool/callback.html`
 
 ### 2. Required Scopes
 The application requires these Spotify API scopes:
@@ -26,8 +26,8 @@ The application requires these Spotify API scopes:
 
 ### 3. Installation
 ```bash
-git clone https://github.com/yourusername/spotify-weekly-releases.git
-cd spotify-weekly-releases
+git clone https://github.com/greycardinal3000/my-music-discovery-tool.git
+cd my-music-discovery-tool
 pip install -r requirements.txt
 ```
 
@@ -36,7 +36,7 @@ Create a `.env` file with your Spotify credentials:
 ```
 SPOTIFY_CLIENT_ID=your_client_id_here
 SPOTIFY_CLIENT_SECRET=your_client_secret_here
-SPOTIFY_REDIRECT_URI=https://yourusername.github.io/spotify-weekly-releases/callback.html
+SPOTIFY_REDIRECT_URI=https://greycardinal3000.github.io/my-music-discovery-tool/callback.html
 ```
 
 ## Usage
@@ -54,7 +54,7 @@ The script will:
 ## Project Structure
 
 ```
-spotify-weekly-releases/
+my-music-discovery-tool/
 ├── README.md           # Project documentation
 ├── index.html          # Project website
 ├── callback.html       # OAuth callback handler
@@ -71,10 +71,10 @@ spotify-weekly-releases/
 This is a personal project for music discovery. The tool is in active development and currently supports:
 - [x] Spotify API authentication
 - [x] GitHub Pages hosting setup
-- [ ] Artist following analysis
-- [ ] Similar artist discovery
-- [ ] New release detection
-- [ ] Playlist creation
+- [x] Artist following analysis
+- [x] Similar artist discovery
+- [x] New release detection
+- [x] Playlist creation
 - [ ] Automated scheduling
 
 ## Contributing
