@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music Discovery Tool</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #191414;
+            color: #ffffff;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .spotify-green {
+            color: #1DB954;
+        }
+        .card {
+            background-color: #282828;
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+        .status {
+            background-color: #1DB954;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+            display: inline-block;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+        .feature-list li {
+            margin: 10px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        .feature-list li::before {
+            content: "✓";
+            color: #1DB954;
+            position: absolute;
+            left: 0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #b3b3b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎵 My Music Discovery Tool</h1>
+        <p>Discover new music from your followed artists automatically</p>
+        <div class="status">Development Mode Active</div>
+    </div>
+
+    <div class="card">
+        <h2>About This Project</h2>
+        <p>This tool automatically creates weekly playlists featuring the latest releases from artists you follow on Spotify, plus similar artists you might enjoy.</p>
+        
+        <h3>Features</h3>
+        <ul class="feature-list">
+            <li>Scans your followed artists for new releases</li>
+            <li>Discovers similar artists and their latest tracks</li>
+            <li>Creates weekly playlists automatically</li>
+            <li>Filters for releases from the past 7 days</li>
+            <li>Secure authentication with Spotify API</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🔧 Development Status</h2>
+        <p>This project is currently in development as a personal music discovery tool.</p>
+        <p><strong>Developer:</strong> Building with Python and Spotify Web API</p>
+        <p><strong>Authentication:</strong> OAuth 2.0 with secure redirect handling</p>
+    </div>
+
+    <div class="footer">
+        <p>Built with ❤️ using the Spotify Web API</p>
+        <p><em>This is a personal project and is not affiliated with Spotify.</em></p>
+    </div>
+</body>
+</html>
